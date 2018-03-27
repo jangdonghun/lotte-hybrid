@@ -40,6 +40,12 @@ html, body {background-image: url('../images/bg-html.gif'); background-size: cov
 .button, .button-round {
 	font-size: 18px;
 }
+.button.button-xs {
+	font-size: 12px;
+	height: 25px!important;
+  line-height: 23px!important;
+	padding: 0px 10px 0px 10px;
+}
 .button-gold {
   background-color: #d18a00;
   border: solid 2px #d18a00;
@@ -58,8 +64,19 @@ html, body {background-image: url('../images/bg-html.gif'); background-size: cov
 	line-height: 1.8;
 	font-size: 30px;
 }
+.menu-header {
+	height: 55px;
+	z-index: 999;
+}
+.menu-header ~ .menu-scroll {
+	padding-top: 55px;
+	padding-bottom: 100px;
+}
 #page-content {
 	padding-bottom: 100px;
+}
+#page-content.page-content-full {
+	padding-bottom: 0;
 }
 #page-transitions.body-fixed {
   position: fixed!important;
@@ -180,15 +197,6 @@ html, body {background-image: url('../images/bg-html.gif'); background-size: cov
 }
 .notice-box:last-child {
 	border-bottom: none;
-}
-@media (max-width: 375px) {
-	.notice-box h3 a {
-		display: inline-block;
-		width: 282px;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
 }
 .lotte-box h2 {
 	font-size: 23px;
@@ -397,4 +405,51 @@ html, body {background-image: url('../images/bg-html.gif'); background-size: cov
 }
 .ios-switch-checkbox:checked + .ios-switch-label, .ios-switch-checkbox:checked + .ios-switch-label::before {
     border-color: #d18a00;
+}
+.cover-infinite-background {
+	position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  z-index: 2!important;
+  height: 100%;
+  background-size: 100%;
+	background-image: url(../images/login-bg.jpg);
+	animation: none;
+}
+.page-login .login-logo {
+	height: 100px;
+}
+.page-login .page-login-field input {
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 25px!important;
+	font-size: 14px;
+	border: 1px solid rgba(255,255,255,0.2);
+	color: #fff;
+}
+.underbar-link {
+	display: inline-block;
+	line-height: 20px;
+	border-bottom: 1px solid #fff;
+}
+.alert-box .alert-item {
+	margin-bottom: 0;
+}
+.alert-box .alert-item a {
+	overflow: hidden;
+	display: block;
+}
+@media (max-width: 375px) {
+	.notice-box h3 a,
+	.alert-item a span.alert-title {
+		display: inline-block;
+		width: 282px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.alert-item a span.alert-title {
+		width: 254px;
+	}
 }

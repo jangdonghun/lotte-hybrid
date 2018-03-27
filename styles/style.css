@@ -3,35 +3,35 @@
 /*--------------Logos------------*/
 /*--Added here for fast editing--*/
 
-.header-light .header-logo{background-image:url(../images/logo-dark@2x.png)!important;}
-.header-dark .header-logo{background-image:url(../images/logo-light@2x.png)!important;}
-.header-logo{background-size:83px 31px;	width:114px;	height:55px;}
+.header-light .header-logo{background-image:url(../images/logo_black_02.svg)!important;}
+.header-dark .header-logo{background-image:url(../images/logo_white_02.svg)!important;}
+.header-logo{background-size:104px 45px;	width:114px;	height:55px;}
 
 .footer-logo{height:25px; background-size:120px 23px;}
-.footer-light .footer-logo{background-image:url(../images/logo-dark@2x.png);}
-.footer-dark .footer-logo{background-image:url(../images/logo-light@2x.png);}
+.footer-light .footer-logo{background-image:url(../images/logo_black_02.svg);}
+.footer-dark .footer-logo{background-image:url(../images/logo_white_02.svg);}
 
-.menu-dark.menu-large .menu-logo{background-image:url(../images/logo-light@2x.png);}
-.menu-light.menu-large .menu-logo{background-image:url(../images/logo-dark@2x.png);}
+.menu-dark.menu-large .menu-logo{background-image:url(../images/logo_white_02.svg);}
+.menu-light.menu-large .menu-logo{background-image:url(../images/logo_black_02.svg);}
 .menu-large .menu-logo{background-size:105px 20px;}
 
-/* .menu-perspective .menu-logo{background-image:url(../images/logo-light@2x.png);}
+/* .menu-perspective .menu-logo{background-image:url(../images/logo_white_02.svg);}
 .menu-perspective .menu-logo{background-size:135px 25px;}
 .menu-perspective-background{background-image:url(../images/pictures_vertical/bg-perspective.png);} */
 
 .menu-thumbnails .menu-logo .menu-logo-image{height:20px; background-size:100px 19px;}
-.menu-dark.menu-thumbnails .menu-logo .menu-logo-image{background-image:url(../images/logo-light@2x.png);}
-.menu-light.menu-thumbnails .menu-logo .menu-logo-image{background-image:url(../images/logo-dark@2x.png);}
+.menu-dark.menu-thumbnails .menu-logo .menu-logo-image{background-image:url(../images/logo_white_02.svg);}
+.menu-light.menu-thumbnails .menu-logo .menu-logo-image{background-image:url(../images/logo_black_02.svg);}
 
 .menu-list-logo{background-size:140px 27px;	width:140px; height:27px;}
-.menu-dark .menu-list-logo{background-image:url(../images/logo-light@2x.png);}
-.menu-light .menu-list-logo{background-image:url(../images/logo-dark@2x.png);}
+.menu-dark .menu-list-logo{background-image:url(../images/logo_white_02.svg);}
+.menu-light .menu-list-logo{background-image:url(../images/logo_black_02.svg);}
 
-.preloader-dark h1{background:url(../images/logo-light@2x.png) center center no-repeat;}
-.preloader-light h1{background:url(../images/logo-dark@2x.png) center center no-repeat;}
+.preloader-dark h1{background:url(../images/logo_white_02.svg) center center no-repeat;}
+.preloader-light h1{background:url(../images/logo_black_02.svg) center center no-repeat;}
 
-.timeline-logo{background-size:114px 45px; height:55px;	background-image:url(../images/logo-light@2x.png);}
-.profile-logo{background-image:url(../images/logo-dark@2x.png);	background-size:114px 45px;	height:55px;}
+.timeline-logo{background-size:114px 45px; height:55px;	background-image:url(../images/logo_white_02.svg);}
+.profile-logo{background-image:url(../images/logo_black_02.svg);	background-size:114px 45px;	height:55px;}
 
 
 /*----Preloader----*/ 
