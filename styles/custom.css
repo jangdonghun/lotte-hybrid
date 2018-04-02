@@ -963,6 +963,7 @@ ul.no-padding {
 	font-size: 11px;
 	z-index: 4;
 }
+
 @media (max-width: 375px) {
 	.notice-box h3 a,
 	.alert-item a span.alert-title {

@@ -1,5 +1,5 @@
 $(function() {
-
+  
   function onApplyHandler(date, context) {
       /**
        * @date is an array which be included dates(clicked date at first index)
