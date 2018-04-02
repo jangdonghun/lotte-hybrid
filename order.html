@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html dir="ltr" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>Elyes</title>
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/framework.css">
+<link rel='stylesheet' type='text/css' href="font/robotodraft.css">
+<link rel='stylesheet' type='text/css' href="font/NotoSansKR-Hestia.css">
+<link rel='stylesheet' type='text/css' href="xeicon_v2/xeicon.min.css">
+<link rel="stylesheet" type="text/css" href="styles/pignose.calendar.css">
+<link rel="stylesheet" type="text/css" href="styles/custom.css">
+</head>
+
+<body>
+<div id="page-transitions">
+
+	<div id="header" class="header-logo-app header-dark">
+		<a href="#" class="header-title back-button close-menu">결제내역조회</a>
+		<a href="#" class="header-logo disabled"></a>
+		<a href="#" class="header-icon back-button header-icon-1 no-border"><i class="xi-angle-left-min"></i></a>
+	</div>
+
+	<div id="page-content" class="page-content bg-lotte-1">
+		<div id="page-content-scroll">
+			<div class="news-home news-tabs bg-white">
+				<a href="rental-contract.html" class="one-half center-text">임대계약정보조회</a>
+				<a href="monthly.html" class="one-half last-column center-text">월별관리비조회</a>
+				<a href="payment.html" class="one-half center-text">납부내역조회</a>
+				<a href="#" class="one-half last-column center-text active-tab-button">결제내역조회</a>
+				<div class="clear"></div>
+			</div>
+			<div id="myAddress" class="container content myaddress full-top half-bottom">
+				<div class="select-box select-box-2 half-bottom bg-white">
+					<select>
+						<option value="1">신동탄 롯데캐슬 A Type 29</option>
+						<option value="2">동탄2 롯데캐슬 A Type 29</option>
+						<option value="3">문래 롯데캐슬 A Type 29</option>
+						<option value="4">독산역 롯데캐슬 A Type 29</option>
+						<option value="5">김포한강 롯데캐슬 A Type 29</option>
+					</select>
+					<i class="xi-angle-down-thin"></i>
+				</div>
+			</div>
+			<div id="section-payment" class="container content">
+				<h3>조회기간</h3>
+				<div class="checkboxes">
+					<div class="fac fac-button one-third">
+						<input id="selectmonth_1" type="radio" name="monthrange" value="1" checked>
+						<label for="selectmonth_1">1개월</label>
+					</div>
+					<div class="fac fac-button one-third">
+						<input id="selectmonth_2" type="radio" name="monthrange" value="2">
+						<label for="selectmonth_2">2개월</label>
+					</div>
+					<div class="fac fac-button one-third last-column">
+						<input id="selectmonth_3" type="radio" name="monthrange" value="3">
+						<label for="selectmonth_3">3개월</label>
+					</div>
+				</div>
+				<div class="small-bottom clear"></div>
+				<div class="datepick-box">
+					<div class="one-half">
+						<div class="input-simple-2 has-icon input-blue"><i class="xi-calendar"></i><input type="text" placeholder="2018-04-01" id="start_datepick" class="input-calendar"></div>
+					</div>
+					<div class="one-half last-column">
+						<div class="input-simple-2 has-icon input-blue"><i class="xi-calendar"></i><input type="text" placeholder="2018-04-01" id="end_datepick" class="input-calendar">
+					</div>
+				</div>
+				<div class="small-bottom clear"></div>
+				<a href="#" data-deploy-menu="" class="button button-gold button-rounded button-full regularbold no-bottom">검색</a>
+					<div class="full-bottom"></div>
+
+					<div id="section-paymenttable" class="boardlist">
+						<div class="content-boxed small-bottom">
+							<table class="lotte-table-2 no-bottom">
+								<thead>
+									<tr>
+										<th>일자<span></span></th>
+										<th>결제내역<span></span></th>
+										<th class="style33">결제금액</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>2016-06-20</td>
+										<td>18년 01월분 관리비</td>
+										<td>100,000</td>
+									</tr>
+									<tr>
+										<td>2016-07-20</td>
+										<td>18년 01월분 임대료</td>
+										<td>185,000</td>
+									</tr>
+									<tr>
+										<td>2016-06-20</td>
+										<td>17년 12월분 관리비</td>
+										<td>105,000</td>
+									</tr>
+									<tr>
+										<td>2016-06-20</td>
+										<td>서비스 이용료</td>
+										<td>100,000</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="full-bottom"></div>
+						<a href="#" class="button button-rounded button-full button-sm button-border-gold">더보기 <i class="xi-angle-down-thin"></i></a>
+					</div>
+				</div>
+		</div>
+
+		<div class="footer_box">
+			<ul class="clear">
+				<li class="on">
+					<a href="#">
+						<img src="images/footer-01-on.svg">
+						<p>계약관리</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/footer-02-off.svg">
+						<p>주거서비스</p>
+					</a>
+				</li>
+				<li>
+					<a href="index.html" class="footer-home">
+						<img src="images/footer-home.svg">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/footer-03-off.svg">
+						<p>커뮤니티</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/footer-04-off.svg">
+						<p>고객센터</p>
+					</a>
+				</li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+	</div>
+
+	<a href="#" class="back-to-top-badge back-to-top-small"><i class="fa fa-angle-up"></i>Back to Top</a>
+</div>
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript" src="scripts/plugins.js"></script>
+<script type="text/javascript" src="scripts/pignose.calendar.full.js"></script>
+<script type="text/javascript" src="scripts/lotte.js"></script>
+
+</body>
+</html>
